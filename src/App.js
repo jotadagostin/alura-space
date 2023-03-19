@@ -1,3 +1,6 @@
+import FirstPage from "./Pages/FirstPage";
+import './styles/globalstyles.scss'
+
 export default function App() {
-  return <h1>Alura Space</h1>;
+  return <FirstPage/>;
 }
