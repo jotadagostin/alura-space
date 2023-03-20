@@ -1,9 +1,9 @@
 import React from 'react'
-import home from '../../assets/icones/home-ativo.png'
-import mostLiked from '../../assets/icones/mais-curtidas-inativo.png'
-import mostViewed from '../../assets/icones/mais-vistas-inativo.png'
-import news from '../../assets/icones/novas-inativo.png'
-import surpriseMe from '../../assets/icones/surpreenda-me-inativo.png'
+import home from '../../assets/icons/home-ativo.png'
+import mostLiked from '../../assets/icons/mais-curtidas-inativo.png'
+import mostViewed from '../../assets/icons/mais-vistas-inativo.png'
+import news from '../../assets/icons/novas-inativo.png'
+import surpriseMe from '../../assets/icons/surpreenda-me-inativo.png'
 import styles from './Menu.module.scss'
 
 
