@@ -10,7 +10,7 @@ import styles from './Menu.module.scss'
 export default function Menu() {
   return (
     <nav className={styles.menu}>
-        <ul className={styles.menu__lista}>    
+        <ul className={styles.menu__list}>    
             <li className={styles.menu__item}>
                 <img src={home} alt="" />
                 <a href="">Home</a>
