@@ -1,10 +1,11 @@
 @import-normalize;
+@import "./variaveis";
 
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: linear-gradient(#041833, #154580);
+  background-image: linear-gradient($dark-blue, $light-blue);
   box-sizing: border-box;
 }
 
@@ -35,5 +36,3 @@ body::-webkit-scrollbar-track {
   font-weight: 700;
   display: swap;
 }
-
-
