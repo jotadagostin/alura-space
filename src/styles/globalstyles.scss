@@ -27,12 +27,12 @@ body::-webkit-scrollbar-track {
   src: local("GhandhiSansRegular"),
     url("../assets/fonts/GandhiSans-Regular.otf") format("truetype");
   font-weight: 500;
-  display: swap;
+  font-display: swap;
 }
 @font-face {
   font-family: "GhandhiSansBold";
   src: local("GhandhiSansBold"),
     url("../assets/fonts/GandhiSans-Bold.otf") format("truetype");
   font-weight: 700;
-  display: swap;
+  font-display: swap;
 }
