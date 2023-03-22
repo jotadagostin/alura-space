@@ -19,7 +19,7 @@ export default function Gallery() {
   return (
     <section className={styles.gallery}>
       <h2>Browse through the Gallery</h2>
-      <Tags tags={tags} filterPhotos={filterPhotos}/>
+      <Tags tags={tags} filterPhotos={filterPhotos} setItens={setItens}/>
       <Cards itens={itens} styles={styles} />
     </section>
   );
