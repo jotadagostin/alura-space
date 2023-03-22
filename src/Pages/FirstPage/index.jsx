@@ -1,10 +1,11 @@
-import Header from "../../components/Header";
-import Menu from "../../components/Menu";
 import banner from "./banner.png";
-import Footer from "../../components/Footer";
 import styles from "./FirstPage.module.scss";
-import Gallery from "../../components/Gallery";
-import Populars from "../../components/Populars";
+
+import Header from "components/Header";
+import Menu from "components/Menu";
+import Footer from "components/Footer";
+import Gallery from "components/Gallery";
+import Populars from "components/Populars";
 
 export default function FirstPage() {
   return (
