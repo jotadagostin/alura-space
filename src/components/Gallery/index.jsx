@@ -16,12 +16,12 @@ export default function Gallery() {
             <li key={photo.id} className={styles.gallery__card}>
               <img
                 className={styles.gallery__image}
-                src={photo.imagem}
+                src={photo.image}
                 alt={photo.title}
               />
-              <p className={styles.gallery__description}></p>
+              <p className={styles.gallery__description}>{photo.title}</p>
               <div>
-                <p>{photo.credits}</p>
+                <p>{photo.credit}</p>
                 <span>
                   <img src={favorito} alt="heart icon like" />
                   <img src={open} alt="icon open modal" />
