@@ -4,6 +4,7 @@ import banner from "./banner.png";
 import Footer from "../../components/Footer";
 import styles from "./FirstPage.module.scss";
 import Gallery from "../../components/Gallery";
+import Populars from "../../components/Populars";
 
 export default function FirstPage() {
   return (
@@ -20,10 +21,11 @@ export default function FirstPage() {
             />
           </div>
         </section>
+        <div className={styles.gallery}>
+          <Gallery />
+          <Populars />
+        </div>
       </main>
-      <div className={styles.gallery}>
-        <Gallery />
-      </div>
       <Footer />
     </>
   );
