@@ -3,6 +3,7 @@ import Menu from "../../components/Menu";
 import banner from "./banner.png";
 import Footer from "../../components/Footer";
 import styles from "./FirstPage.module.scss";
+import Gallery from "../../components/Gallery";
 
 export default function FirstPage() {
   return (
@@ -20,6 +21,9 @@ export default function FirstPage() {
           </div>
         </section>
       </main>
+      <div className={styles.gallery}>
+        <Gallery />
+      </div>
       <Footer />
     </>
   );
