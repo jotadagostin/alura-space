@@ -41,3 +41,17 @@ main {
   margin-top: 1rem;
 }
 
+@media screen and (max-width: 414px) {
+  .principal {
+    display: block;
+    
+   
+  }
+
+  .principal h1 {
+    font-size: 0.9rem;
+  }
+
+  
+}
+
