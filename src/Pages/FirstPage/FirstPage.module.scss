@@ -49,9 +49,14 @@ main {
   }
 
   .principal h1 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+    text-shadow: 4px 4px 5px black;
+    margin-left: -13px;
   }
 
+  .principal__image {
+    width: 100%;
+  }
   
 }
 
