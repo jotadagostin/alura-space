@@ -28,3 +28,18 @@
     }
   }
 }
+
+@media screen and (max-width: 414px) {
+  .tags {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tags__list {
+    padding: 5px;
+  }
+
+  .tags__list li {
+    margin: 2px;
+  }
+}
